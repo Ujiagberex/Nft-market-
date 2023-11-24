@@ -38,6 +38,22 @@ header ul li{
     font-weight: 400;
     font-family: 'Poppins', sans-serif;
     cursor: pointer;
+}
+
+header ul li:hover{
+    color:#BFC200;
+    border-bottom: 2px solid;
+    border-color: #BFC200;
+    
+}
+
+.sign-in-button{
+    position: absolute;
+    top: 22px;
+    right: 200px;
+    width: 124px;
+    border-style: solid;
+    cursor: pointer;
 
 }
 
@@ -46,7 +62,6 @@ header ul li{
     font-family: 'Rubik', sans-serif;
     background-color: rgb(0, 0, 0);
     color: #BFC200;
-    margin-right: 28px;
     height: 55px;
     width: 120px;
     font-weight: 400;
@@ -54,9 +69,7 @@ header ul li{
     border-color: #BFC200;
     border-style: solid;
     position: absolute;
-    margin-top: 22px;
     border-width: 1px;
-    cursor: pointer;
 }
 
 
@@ -69,9 +82,8 @@ header ul li{
     background-color: rgba(0, 0, 0, 0);
     position: relative;
     left: 6px;
-    top: 28px;
+    top: 4px;
     border-width: 1px;
-    cursor: pointer;
 }
 
 
@@ -83,7 +95,6 @@ header ul li{
     border: none;
     font-weight: 400;
     margin-left: 23px;
-    padding-bottom: 30px;
     font-family: 'Poppins', sans-serif;
 }
 
